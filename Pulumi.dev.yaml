@@ -1,7 +1,7 @@
 config:
   aws:region: eu-west-2
   eneftea-pulumi:API_CPU: "150"
-  eneftea-pulumi:API_IMAGE: 241753406377.dkr.ecr.eu-west-2.amazonaws.com/eneftea-api:1.0.4
+  eneftea-pulumi:API_IMAGE: 241753406377.dkr.ecr.eu-west-2.amazonaws.com/eneftea-api:1.0.5
   eneftea-pulumi:API_MEMORY: "256"
   eneftea-pulumi:AWS_PROFILE: it-aws-dev
   eneftea-pulumi:CDN_DOMAIN: cdn.dev.eneftea.nerds.cooking
@@ -13,3 +13,7 @@ config:
   eneftea-pulumi:MOLECULER_NAMESPACE: dev
   eneftea-pulumi:NFT_STORAGE_REGION: eu-west-2
   eneftea-pulumi:REDIS_URL: redis://172.31.46.247:6379
+  eneftea-pulumi:S3_KEY_ID:
+    secure: AAABAL0fBnRQKc6F1YFvjRT5kV45zDRkIs/E5ll+7R+ZuZslPFA+GLAd1XWYv0XcVuk04A==
+  eneftea-pulumi:S3_SECRET_ACCESS_KEY:
+    secure: AAABAJValYPvbNjRa8CubaQSmcti3BLWw9N6wrMXa70XNK4YJJ8TwXsFZ5Cs+D2tuVdCJGKJ804NdF9G3aV4GWgYAEbksV7C
