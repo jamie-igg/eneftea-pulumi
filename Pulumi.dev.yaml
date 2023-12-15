@@ -1,0 +1,15 @@
+config:
+  aws:region: eu-west-2
+  eneftea-pulumi:API_CPU: "150"
+  eneftea-pulumi:API_IMAGE: 241753406377.dkr.ecr.eu-west-2.amazonaws.com/eneftea-api:1.0.4
+  eneftea-pulumi:API_MEMORY: "256"
+  eneftea-pulumi:AWS_PROFILE: it-aws-dev
+  eneftea-pulumi:CDN_DOMAIN: cdn.dev.eneftea.nerds.cooking
+  eneftea-pulumi:DATABASE_URL:
+    secure: AAABANeuS1wmmHI4uOqnjlFwd12kPshIpSKkyHK7t3dllqnlgaE/RQsv72hbIbygeFm5JQm9aVT88CQbiUzuTNJWdeQzVZeL4nvt0vLgkFt+1DaEEKLv4zOdgeVDqd2x+RzMGr0uKIFcV337+opDdxhA
+  eneftea-pulumi:DOMAIN: dev.eneftea.nerds.cooking
+  eneftea-pulumi:IPFS_GATEWAY: https://iggalaxy.mypinata.cloud/ipfs/
+  eneftea-pulumi:KAFKA_URL: 172.31.17.201:9092
+  eneftea-pulumi:MOLECULER_NAMESPACE: dev
+  eneftea-pulumi:NFT_STORAGE_REGION: eu-west-2
+  eneftea-pulumi:REDIS_URL: redis://172.31.46.247:6379
